@@ -1,12 +1,12 @@
-package com.example.springbootrestclient
+package com.jos.dem.rest.client
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
 @SpringBootApplication
-class DemoApplication {
+class RestClientApplication {
 
 	static void main(String[] args) {
-		SpringApplication.run DemoApplication, args
+		SpringApplication.run RestClientApplication, args
 	}
 }
