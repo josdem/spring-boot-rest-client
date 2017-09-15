@@ -22,7 +22,7 @@ class RestClientImpl implements RestClient {
       def result = restClient.get(
         uri : 'http://jugoterapia.josdem.io/jugoterapia-server/beverage/beverage?beverageId=35'
       )
-      println "result: ${result.data}"
+      result.data
     } catch(Exception ex) {
       log.warn "Error ${ex.message}"
       throw new BusinessException(ex.message)
