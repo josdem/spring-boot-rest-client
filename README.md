@@ -1,4 +1,4 @@
-Spring Boot JDBC Template
+Spring Boot Rest Client
 ----------------------------
 
 This project shows how to consume a rest service using Spring Boot and a Groovy library based in HTTPBuilder [RESTClient](https://github.com/jgritman/httpbuilder/wiki/RESTClient) by jgritman
